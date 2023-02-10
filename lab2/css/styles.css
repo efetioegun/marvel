@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 5em;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: black
+}
+
+
+
+
+nav li {
+    list-style-type: none;
+}
+
+header img {
+    width: 960px;
+}
+
+article img {
+    width: 400px;
+}
+
+
+nav ul {
+    padding: 0;
+    text-align:center;
+}
+
+nav li {
+    list-style-type: none;
+
+    display: inline-block;
+    padding: 10px;
+}
+
+.experience input, .experience textarea {
+    width: 100%;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+<article class="activity">
+    <!-- Self-contained content intended to be independently distributable -->
+    <h3>The Lake Challenge</h3>
+    <div class="flex-container">
+        <figure class="flex-container">
+            <img src="img/kayak.jpg" alt="Lake challenge kayak" title="Kayak on Laguna Brava">
+            <figcaption>
+                Cross the four kilometres in a kayak guided by a local guide. <strong>This guided visit is
+                physically demanding, and it is recommended for only those in excellent physical
+                condition.</strong>
+                <ul>
+                    <li>Duration: 5 hours approx.</li>
+                    <li>Price: $50 USD</li>
+                    <li>Minimum: 2 pax</li>
+                </ul>
+            </figcaption>
+        </figure>
+    </div>
+</article>
+
+.activity img {
+    margin-right: 10px;
+}
+    
+.activity figure {
+    margin-top: 0;
+}
+    
+.activity ul {
+    padding: 0;
+}
+.activity li {
+    list-style-position: inside;
+}
+.center {
+    max-width: 960px;
+    margin: 0 auto;
+}
+<body>
+    <div class="center"> 
+        ...
+    </div>
+</body>
